@@ -17,38 +17,20 @@
   <meta property="og:image:height" content="630">
   <link rel="canonical" href="https://nkevy-sci.github.io/mist/">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/navbar.css">
   <script defer src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
-  <script defer src="js/index.js"></script>
+  <script defer src="js/navbar.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <button class="menu-toggle icon-button" type="button" aria-label="Open navigation" aria-controls="navigation-drawer" aria-expanded="false" hidden>
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false">
-      <path d="M4 6h16M4 12h16M4 18h16"/>
-    </svg>
-  </button>
-
-  <!-- Open inline by default: navigation remains usable without JavaScript or jQuery. -->
-  <dialog id="navigation-drawer" class="navigation-drawer" aria-labelledby="navigation-title" open>
-    <div class="drawer-heading">
-      <p id="navigation-title">Mist Classes</p>
-      <button class="menu-close icon-button" type="button" aria-label="Close navigation" hidden>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false">
-          <path d="m6 6 12 12M18 6 6 18"/>
-        </svg>
-      </button>
-    </div>
-    <nav aria-labelledby="navigation-title">
-      <details>
-        <summary>IST 522</summary>
-        <ul class="project-list">
-          <!-- Replace this text with an anchor when the ID Document destination is supplied. -->
-          <li>ID Document</li>
-        </ul>
-      </details>
-    </nav>
-  </dialog>
+  <!-- Site root is relative to this page: ./ here, ../ one directory down. -->
+  <div id="site-navigation" data-site-root="./"></div>
+  <!-- Keep these Home paths relative to this page, including on nested pages. -->
+  <nav class="navigation-fallback" aria-label="Navigation fallback">
+    <p>Navigation is unavailable. <a href="index.html">Return to Home Page</a></p>
+  </nav>
+  <noscript><nav class="no-js" aria-label="JavaScript notice"><p>JavaScript is disabled. <a href="index.html">Return to Home Page</a></p></nav></noscript>
 
   <header class="body-header">
     <!-- The supplied hero asset is named hero-faded_1.png in this repository. -->
