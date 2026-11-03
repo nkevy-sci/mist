@@ -1,0 +1,4 @@
+.term-paper p { text-indent: 0; }
+.term-paper .term-paper-figure { margin: 2rem 0; }
+.term-paper .term-paper-figure img { width: 100%; height: auto; background: #fff; }
+.term-paper .term-paper-figure figcaption { margin-top: 0.75rem; }

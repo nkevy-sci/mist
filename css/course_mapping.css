@@ -1,0 +1,38 @@
+/* Course map only: shared typography and page layout remain in standard.css. */
+.course-map-scroll {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.25rem;
+}
+.course-map-table {
+  width: 100%;
+  min-width: 200rem;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+}
+.course-map-table caption {
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+}
+.course-map-table th,
+.course-map-table td {
+  padding: 1rem;
+  border: 1px solid #cbd5e1;
+  vertical-align: top;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.course-map-table thead th { background: #e8effb; font-weight: 600; }
+.course-map-table tbody th { font-weight: 600; }
+.course-map-table tfoot th,
+.course-map-table tfoot td { background: #edf2f7; font-weight: 600; }
+.course-map-table p { margin: 0 0 1rem; text-indent: 0; }
+.course-map-table p:last-child { margin-bottom: 0; }

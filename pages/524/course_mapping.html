@@ -17,6 +17,7 @@
   <!-- EDIT paths for nested pages: e.g. ../css/standard.css and ../js/navbar.js. -->
   <link rel="stylesheet" href="../../css/standard.css">
   <link rel="stylesheet" href="../../css/navbar.css">
+  <link rel="stylesheet" href="../../css/course_mapping.css">
   <script defer src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
   <script defer src="../../js/navbar.js"></script>
 </head>
@@ -32,22 +33,79 @@
 
   <header class="page-banner">
     <div class="banner-content">
-      <!-- EDIT: page heading and subtitle. -->
       <h1>Course Mapping</h1>
       <h2>IST524</h2>
     </div>
   </header>
 
   <main id="main-content" tabindex="-1">
-    <!-- REPLACE: example content. Use .prose for readable text; .gallery for wider images. -->
-    <section class="prose" aria-labelledby="models-title">
-      <h2 id="models-title">Instructional Design Models.</h2>
-      <p>There are multiple instructional design models that provide guidance for every phase of a project or initiative. ADDIE organizes the design process into five phases: analysis, design, development, implementation and evaluation. The Successive Approximation Model (SAM) emphasizes short, repeated cycles of design, prototyping and feedback to refine learning experiences. The Dick and Carey model takes a systems approach, connecting instructional goals, learner and context analysis, performance objectives, assessments, instructional strategies, and evaluation. These models offer different ways to organize the work of developing and improving instruction.</p>
+    <section class="prose" aria-labelledby="course-map-title">
+      <h2 id="course-map-title">The Course Map</h2>
+      <p>This course map outlines a lesson that introduces concept maps. It connects learning outcomes with assessments, learning theories, activities, instructional strategies and resources.</p>
     </section>
-    <!-- END replaceable content. Main sections use h2; subsections use h3.
-         Gallery example: <div class="gallery"><figure><img src="img/your-image.jpg"
-         alt="Describe the learning activity shown"><figcaption>Caption</figcaption></figure></div>
-         Use alt="" for decorative images; wrap wide tables in .wide-content. -->
+    <div class="course-map-scroll" role="region" aria-labelledby="course-map-title" aria-describedby="course-map-help" tabindex="0">
+<table class="course-map-table">
+  <caption>Concept mapping course map: outcomes, assessments, learning activities, and resources</caption>
+  <thead><tr>
+    <th scope="col">Module (Optional)</th>
+    <th scope="col">Topic (Optional)</th>
+    <th scope="col">Learning Outcomes (WEEK 3)</th>
+    <th scope="col">Assessments (WEEK 3)</th>
+    <th scope="col">Learning Theory Addressed (WEEK 3)</th>
+    <th scope="col">Learning Activities (WEEK 3)</th>
+    <th scope="col">Instructional Strategies (WEEK 3)</th>
+    <th scope="col">Instructional Design Models Addressed (Optional)</th>
+    <th scope="col">Formative Assessment</th>
+    <th scope="col">Grade Points (Optional)</th>
+    <th scope="col">Instructional Materials</th>
+    <th scope="col">Reference</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td><p>1.1, 1.2</p></td>
+      <th scope="row"><p>Recognize a Concept Map</p></th>
+      <td><p>1.1 Given a graphic or diagram, graduate students will be able to determine if it is a concept map or not, with 80% accuracy.</p><p>1.2 Given a well-formed concept map, graduate students will be able to identify the component parts of a concept map, identifying 3 essential components and 1 variable component with 80% accuracy.</p></td>
+      <td><p>Learners will classify examples and non-examples. 12 true-false questions will be held in a Canvas quiz; 80% to pass.</p><p>Learners will select the answer that corresponds to an essential (or variable) component of a concept map. 7 multiple choice questions will be held in a Canvas quiz; 6/7 to pass.</p><p>The multiple choice questions will correspond to one or more specific concept map(s) that will be provided during this assessment. Elements will be labeled (e.g. a concept, a relationship, a proposition). Some questions will ask about the variable attributes like size and shape.</p></td>
+      <td><p>Behaviorist learning objectives (measurable and performance based).</p><p>Cognitivist multimedia principles (text and graphics).</p><p>Cognitivist generative processing theory (active learning).</p><p>Cognitive load theory (reduce extraneous processing by presenting only essential material).</p></td>
+      <td><p>Learners will...<br>Read a worked example.<br>Download a job-aid / hand-out (contains the properties of a concept map).<br>Take a low-stakes quiz.</p></td>
+      <td><p>Classify concepts (Merrill, 2025).<br>Worked examples.</p></td>
+      <td><p>SAM model should be used for rapid prototyping of the quiz. The reading and job-aid will be based on a literature review of concept mapping (including Novak &amp; Gorwin, 1984).</p></td>
+      <td><p>Usability testing with eight participants.<br>Empathy Mapping will be used alongside the normal talk-aloud approach.</p></td>
+      <td><p>20</p></td>
+      <td><p>An e-learning product will be made with Articulate Rise. It will contain the following things.</p><p>Worked examples. Concept map examples and non-examples. Expository sections and quiz questions.</p><p>Job-Aid/Hand-out the essential and variable components of a concept map.</p></td>
+      <td><p>Clark, R. &amp; Mayer, E. R. (2023). E-Learning and The Science of Instruction (5th ed.). Wiley.</p><p>Ertmer, P. A., &amp; Newby, T. J. (2013). Behaviorism, cognitivism, constructivism: Comparing critical features from an instructional design perspective. Performance Improvement Quarterly, 26(2), 43-71. (Original work published 1993).</p><p>Merrill, D. M. (2025). You Only Need Three Crayons. In Reiser, R., Carr-Chellman, A., &amp; Dempsey, J. V. (Eds.). Trends and Issues in Instructional Design and Technology. Routledge.</p><p>Novak, J. D.&amp; Gowin, D. B. (1984). Learning how to learn. Cambridge University Press.</p></td>
+    </tr>
+    <tr>
+      <td><p>1.3, 1.4, 1.5</p></td>
+      <th scope="row"><p>Make a concept map</p></th>
+      <td><p>1.3 Given a prompt, graduate students will be able to perform the procedure of concept generation, listing between 3 and 9 distinct concepts.</p><p>1.4 Given a list of propositions, graduate students will be able to convert the list of propositions into a concept map. Their map contains all of the information presented in the list of propositions.</p><p>1.5 Given a prompt, graduate students will be able to perform the skill of concept mapping, showing in 3 to 7 concepts and at least n-1 propositions (but not more than 3n-1) where n is the number of selected concepts. The design of their concept maps should match the design that was shown during the course.</p></td>
+      <td><p>Multiple choice questions will be held in a Canvas quiz.</p><p>1.3 Learners will be asked to select the concept that most strongly relates to a given statement. 2/3 to pass</p><p>1.4 Learners will identify the concept map that corresponds to a given proposition. 2/3 to pass</p><p>1.5 Learners will identify the errors in a concept map. This quiz will be framed as a scenario wherein the learner is grading a concept mapping according to a rubric (given). 2/3 to pass.</p><p>For example, <em>The rubric asks for a map with 3 to 5 concepts. Select the best answer. Option 1. There are 5 concepts. Option 2. There are 6 concepts. Option 3. There are 4 concepts, and one of the relationships is incorrectly drawn like a concept.</em></p><p>Note: The instructor-less environment limits the assessment. The instructor cannot grade learner&#x27;s maps.</p></td>
+      <td><p>Constructivist experiential learning. (engage operational processes then internalize action).</p><p>Sociocultural learning experiences. Share cretions with peers/others then discuss and reflect.</p></td>
+      <td><p>GenAI activity: given a text, create a concept list. Enter results to a discussion. 10 points.</p><p>GenAI or not activity: given a concept list, create a propositions then a concept map. Enter results to a discussion. 10 Points.</p></td>
+      <td><p>Concept Mapping (Novak &amp; Gorwin, 1984).</p></td>
+      <td><p>SAM model is being used for design of generative artificial intelligence activities (GenAI).</p></td>
+      <td><p>Usability testing with eight participants.<br>Empathy Mapping will be used alongside the normal talk-aloud approach.</p></td>
+      <td><p>20</p></td>
+      <td><p>Access to ChatGPT or Gemini is provided by CSUMB</p></td>
+      <td><p>Athey, C. (1990). Extending Thought in Young Children, A Parent-Teacher Partnership. Paul Chapman.</p><p>Novak, J. D.&amp; Gowin, D. B. (1984). Learning how to learn. Cambridge University Press.</p></td>
+    </tr>
+  </tbody>
+  <tfoot><tr>
+    <td></td>
+    <th scope="row"><p>Total Course Points:</p></th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><p>40</p></td>
+    <td></td>
+    <td></td>
+  </tr></tfoot>
+</table>
+    </div>
   </main>
 
   <footer><p>All Rights Reserved © 2026 Noah S. Kevy</p></footer>
