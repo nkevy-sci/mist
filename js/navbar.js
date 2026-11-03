@@ -32,6 +32,11 @@
         <nav aria-labelledby="navigation-title">
           <a class="navigation-home" data-site-path="index.html">Home</a>
           <p class="navigation-subtitle">MIST Courses</p>
+          <details><summary>IST520</summary><ul class="project-list">
+            <li><a data-site-path="pages/520/evidence_based_practice.html">Evidence-Based Practice</a></li>
+            <li><a data-site-path="pages/520/capstone_proposal.html">Capstone Proposal</a></li>
+            <li><a data-site-path="pages/520/certificate_for_hsr.html">Certificate for HSR</a></li>
+          </ul></details>
           <details><summary>IST 522</summary><ul class="project-list">
             <li><a data-site-path="pages/522/idd_frontpage.html">ID Document</a></li>
           </ul></details>
