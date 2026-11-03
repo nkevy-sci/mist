@@ -17,7 +17,7 @@
     if (!rootValue) return;
 
     const siteRoot = new URL(rootValue.endsWith("/") ? rootValue : rootValue + "/", document.baseURI);
-    // Keep every navigation label and destination here. ID Document has no URL yet.
+    // Keep every navigation label and destination here.
     $mount.html(`
       <button class="menu-toggle icon-button" type="button" aria-label="Open navigation" aria-controls="navigation-drawer" aria-expanded="false" hidden>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -33,8 +33,14 @@
           <a class="navigation-home" data-site-path="index.html">Home</a>
           <p class="navigation-subtitle">MIST Courses</p>
           <details><summary>IST 522</summary><ul class="project-list">
-            <!-- Replace with <a data-site-path="relative/path.html">ID Document</a> when supplied. -->
-            <li>ID Document</li>
+            <li><a data-site-path="pages/522/idd_frontpage.html">ID Document</a></li>
+          </ul></details>
+          <details><summary>IST524</summary><ul class="project-list">
+            <li><a data-site-path="pages/524/id_case_study.html">ID Case Study</a></li>
+            <li><a data-site-path="pages/524/ethics_scenario.html">Ethics Scenario</a></li>
+            <li><a data-site-path="pages/524/course_mapping.html">Course Mapping</a></li>
+            <li><a data-site-path="pages/524/term_paper.html">Term Paper</a></li>
+            <li><a data-site-path="pages/524/final_exam.html">Final Exam</a></li>
           </ul></details>
         </nav>
       </dialog>`);
