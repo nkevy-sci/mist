@@ -1,0 +1,32 @@
+/* Product showcase; shared navigation, banner, and footer retain their styles. */
+.e-learning-products { --product-blue: #173b57; }
+.e-learning-products a { color: var(--product-blue); }
+.e-learning-products .product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+.e-learning-products .product-card { min-width: 0; }
+.e-learning-products .product-link { display: block; border-radius: 0.5rem; }
+.e-learning-products .product-link img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #d4d4d4;
+  border-radius: 0.5rem;
+}
+.e-learning-products .product-link h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  letter-spacing: -0.02em;
+}
+.e-learning-products .product-link:hover img,
+.e-learning-products .product-link:focus-visible img { border-color: var(--product-blue); }
+.e-learning-products .product-link:hover { text-decoration-thickness: 2px; }
+.e-learning-products .product-link:focus-visible {
+  outline: 3px solid var(--product-blue);
+  outline-offset: 5px;
+}
+.e-learning-products .product-caption { margin: 0; color: var(--muted); }
+@media (max-width: 767.98px) {
+  .e-learning-products .product-grid { grid-template-columns: minmax(0, 1fr); }
+}

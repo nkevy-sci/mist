@@ -1,0 +1,13 @@
+.proposal-contents ul { padding-left: 1.4rem; }
+.proposal-contents li { margin: 0.35rem 0; }
+.proposal-section h3 { margin-top: 2.5rem; }
+.proposal-section h4 { font-size: 1.1rem; line-height: 1.5; margin: 2rem 0 1rem; }
+.proposal-section figure { margin: 2rem 0; }
+.proposal-section figure img { max-height: 45rem; width: auto; object-fit: contain; }
+.proposal-section table { border-collapse: collapse; min-width: 56rem; font-size: 0.9rem; }
+.proposal-section caption { text-align: left; font-weight: 600; margin-bottom: 1rem; }
+.proposal-section th, .proposal-section td { border: 1px solid #b8c1cc; padding: 0.8rem; text-align: left; vertical-align: top; }
+.proposal-section th { background: #e8effb; }
+.proposal-section td p:last-child, .proposal-section th p:last-child { margin-bottom: 0; }
+.proposal-section thead th:first-child { min-width: 10rem; }
+.proposal-section thead th:not(:first-child) { min-width: 16rem; }

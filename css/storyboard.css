@@ -1,0 +1,29 @@
+/* Storyboard content only; shared site chrome uses the existing stylesheets. */
+.storyboard .storyboard-part { max-width: 78ch; }
+.storyboard .storyboard-part + .storyboard-part { margin-top: 4rem; }
+.storyboard h2 { padding-bottom: 1rem; border-bottom: 1px solid #d4d4d4; }
+.storyboard h3 { margin-top: 3rem; }
+.storyboard h4 { margin: 2rem 0 1rem; font-size: 1.125rem; line-height: 1.5; font-weight: 600; }
+.storyboard ul, .storyboard ol { padding-left: 1.5rem; margin: 0 0 1.5rem; }
+.storyboard li + li { margin-top: 0.5rem; }
+.storyboard .storyboard-design {
+  margin: 1.5rem 0 3rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid #d4d4d4;
+  border-radius: 0.5rem;
+  background: #fff;
+  min-width: 0;
+}
+.storyboard .storyboard-design .storyboard-design { margin: 1.5rem 0; background: var(--paper); }
+.storyboard .storyboard-label { color: var(--muted); font-size: 0.875rem; font-weight: 600; margin-bottom: 1.5rem; }
+.storyboard .storyboard-note {
+  padding-left: 1rem;
+  border-left: 3px solid #d4d4d4;
+  font-size: 0.9375rem;
+}
+.storyboard img { display: inline-block; max-width: 100%; height: auto; vertical-align: middle; margin: 0.5rem 0; }
+.storyboard .storyboard-design > :last-child { margin-bottom: 0; }
+@media (max-width: 767.98px) {
+  .storyboard .storyboard-design { padding: 1rem; }
+  .storyboard .storyboard-design .storyboard-design { padding: 0.75rem; }
+}
