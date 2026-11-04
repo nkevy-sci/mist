@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- EDIT: page title, descriptions, canonical and sharing URL for every new page. -->
   <title>Website Plan | Noah's ePortfolio</title>
-  <meta name="description" content="Website Plan for IST541 in Noah’s ePortfolio.">
+  <meta name="description" content="Website plan for Towards Cloud Computing, an IST541 project introducing virtual machines, Google Cloud, and SSH.">
   <meta name="author" content="Noah S. Kevy">
   <meta property="og:title" content="Website Plan | Noah's ePortfolio">
-  <meta property="og:description" content="Website Plan for IST541 in Noah’s ePortfolio.">
+  <meta property="og:description" content="Website plan for Towards Cloud Computing, an IST541 project introducing virtual machines, Google Cloud, and SSH.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Noah's ePortfolio">
   <!-- REPLACE both URLs with this page's absolute published URL before publication. -->
@@ -39,15 +39,100 @@
   </header>
 
   <main id="main-content" tabindex="-1">
-    <!-- REPLACE: example content. Use .prose for readable text; .gallery for wider images. -->
-    <section class="prose" aria-labelledby="models-title">
-      <h2 id="models-title">Instructional Design Models.</h2>
-      <p>There are multiple instructional design models that provide guidance for every phase of a project or initiative. ADDIE organizes the design process into five phases: analysis, design, development, implementation and evaluation. The Successive Approximation Model (SAM) emphasizes short, repeated cycles of design, prototyping and feedback to refine learning experiences. The Dick and Carey model takes a systems approach, connecting instructional goals, learner and context analysis, performance objectives, assessments, instructional strategies, and evaluation. These models offer different ways to organize the work of developing and improving instruction.</p>
+    <section class="prose" aria-labelledby="plan-title">
+      <h2 id="plan-title">Towards Cloud Computing</h2>
+      <p>Final Project for IST 541: Interactive Media, 2026<br>Noah Kevy</p>
     </section>
-    <!-- END replaceable content. Main sections use h2; subsections use h3.
-         Gallery example: <div class="gallery"><figure><img src="img/your-image.jpg"
-         alt="Describe the learning activity shown"><figcaption>Caption</figcaption></figure></div>
-         Use alt="" for decorative images; wrap wide tables in .wide-content. -->
+    <section class="prose" aria-labelledby="description">
+      <h2 id="description">Description</h2>
+      <p>The Cloud enables individuals and companies alike to exploit the availability and scale of vast networks of computers. It has become an essential part of software development. But more than that, it affects how people live and work. This project will help people to experience the cloud for themselves. Though it only provides an introduction, after engaging with the material herein, learners will be in a good position to continue exploring.</p>
+      <p>This document describes a website that will contain six pages, four of which are dedicated to teaching about cloud-based computers. The website will be publicly available, but it is intended for individuals with an interest in computers and computing.</p>
+    </section>
+    <section class="prose" aria-labelledby="changes">
+      <h2 id="changes">Changes &amp; Updates</h2>
+      <p>The scope of this project changed. As of October 18, 2026, the project only provides instruction on the following topics: creating a virtual machine (VM) on Google Cloud, using ssh and ssh-keygen, and logging into a VM on Google Cloud. The initial project was overly ambitious, so teaching additional Linux commands, such as ls -lt, has been tabled for a later date. As such, the number of terminal learning objectives was reduced from three to two.</p>
+    </section>
+    <section class="prose" aria-labelledby="target-audience">
+      <h2 id="target-audience">Target Audience</h2>
+      <p>Students in high school who have some experience with programming will likely benefit from this work. Undergraduate college students may have some coding experience without yet knowing much about virtual machines or the cloud. Generally, this project is intended for people who are interested in writing software in the cloud and who have some experience with programming. As such, even non-technical professionals may find it useful, especially if they collaborate with software developers or other similar teams. As the instruction in this project is only introductory, it will likely not appeal to those who already know about the cloud.</p>
+    </section>
+    <section class="prose" aria-labelledby="audience-analysis">
+      <h2 id="audience-analysis">Audience Analysis</h2>
+      <p>The audience will have most of the prerequisite knowledge to engage with this content. With guidance, they will already be able to use software, click and type. The difficulty is that they may not know much about the Linux command line interface (Chen et al., 2012). This being the case, they likely do not know much about Vim, a text editor. Both some simple command line utilities and Vim should be covered in these materials.</p>
+    </section>
+    <section class="prose" aria-labelledby="learning-objectives">
+      <h2 id="learning-objectives">Learning Objectives</h2>
+      <ol>
+        <li>Learners will be able to provision a virtual machine (VM) in Google Cloud’s Compute Engine feature using their browser.</li>
+        <li>Learners will be able to log in to their VM using their local computer and SSH.</li>
+      </ol>
+    </section>
+    <section class="prose" aria-labelledby="design">
+      <h2 id="design">Design</h2>
+      <p>A website will provide learners with both information on cloud computing and instructions designed to help them get started writing software in the cloud. Interactive elements will be utilized to increase engagement with essential content and facilitate retention. The instructions will be tailored to Google Cloud, and links to this cloud service provider will be included throughout the product. The website will be hosted on GitHub, using the Pages feature.</p>
+      <p>The website should be accessible to the vast majority of learners. Multiple media principles will be applied to reduce extraneous cognitive load. Also, each page and all activities will be navigable using the Enter/Return, Tab, and Shift+Tab keys. If audio or video is used, closed captions will be provided.</p>
+    </section>
+    <section class="prose" aria-labelledby="navigation">
+      <h2 id="navigation">Navigation</h2>
+      <p>The website will use a navigation bar located at the top of each page (see Figure 1). Learners or users, in this context, will begin on the Home Page. There will be six pages in total.</p>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Create a VM</li>
+        <li>Practice with SSH</li>
+        <li>Log In with SSH</li>
+      </ul>
+      <p>The Home page and the pages that contain instruction will be grouped together on the left-hand side. About and Contact pages will be located on the right.</p>
+      <figure>
+        <img src="img/website_plan_navigation.jpg" width="600" height="439" loading="lazy" alt="Draft navigation for Towards Cloud Computing: Home and a Learn dropdown on the left, with About and Contact on the right. The open Learn menu lists Create a virtual machine and two placeholder pages.">
+        <figcaption>Figure 1. A working draft of the navigation bar.</figcaption>
+      </figure>
+    </section>
+    <section class="prose" aria-labelledby="storyboard">
+      <h2 id="storyboard">Outline/Storyboard</h2>
+      <p>The webpages of this project are described below. At this time, only the Create a VM page has been developed.</p>
+      <h3>Home</h3>
+      <p><strong>File:</strong> <code>index.html</code></p>
+      <p><strong>Description:</strong> An image and explanation of what the cloud is and why it is useful will introduce the learner to the website. Also, a list of cloud service providers (CSP) will be included alongside a slideshow of cloud service provider logos.</p>
+      <p><strong>Media:</strong> There will be an introductory image; it should be a natural scene like the sky on a nice day. At present, this has not been completed.</p>
+      <p><strong>Interaction:</strong> An embedded H5P slideshow will show the logos of popular cloud service providers.</p>
+      <h3>About</h3>
+      <p><strong>File:</strong> <code>about.html</code></p>
+      <p><strong>Description:</strong> The context of this project will be described along with a description of the design process. The MIST program will be referenced. The required non-sponsorship statements will be written. Also, the AI use disclosure will be located on this page.</p>
+      <p><strong>Media:</strong> An image of the author.</p>
+      <p><strong>Interaction:</strong> The LinkedIn logo will be a link to the author’s LinkedIn profile.</p>
+      <h3>Contact</h3>
+      <p><strong>File:</strong> <code>contact.html</code></p>
+      <p><strong>Description:</strong> The contact information of the author and a brief biography will be placed here.</p>
+      <p><strong>Media:</strong> There will be a LinkedIn logo, which is a link to the author’s LinkedIn profile.</p>
+      <p><strong>Interaction:</strong> A contact form will let users send an email to the author.</p>
+      <h3>Create a VM</h3>
+      <p><strong>File:</strong> <code>create_vm.html</code></p>
+      <p><strong>Description:</strong> A job aid and a video demonstration will guide learners through the process of creating a VM using Google Cloud. The sequence of steps was segmented, so learners can complete one step at a time.</p>
+      <p><strong>Media:</strong> An embedded YouTube video in an iframe demonstrates the procedure.</p>
+      <p><strong>Interaction:</strong> An HTML accordion will contain the steps required to create a VM in Google Cloud.</p>
+      <h3>Practice with SSH</h3>
+      <p><strong>File:</strong> <code>practice_ssh.html</code></p>
+      <p><strong>Description:</strong> The SSH command will be introduced. The learners will be able to practice with the ssh and ssh-keygen commands.</p>
+      <p><strong>Media:</strong> A hotspot shows examples of what the commands look like when typed into a command line interface.</p>
+      <p><strong>Interaction:</strong> jQuery will be used to create a few interactive elements. Learners will be able to explore the commands by clicking on parts of the command. Explanations for each part will be given. Also, a simulation will be created for ssh and ssh-keygen so that learners can practice typing the commands and get feedback.</p>
+      <h3>Log In with SSH</h3>
+      <p><strong>File:</strong> <code>ssh_login.html</code></p>
+      <p><strong>Description:</strong> A demonstration and a sequence of written steps will explain to the learners how to log in to their VM. First, they must add their SSH public key, and then they’ll use ssh and their private key to log in. Images of Google Cloud’s user interface will be included.</p>
+      <p><strong>Media:</strong> An embedded YouTube video in an iframe demonstrates how to add an SSH public key to a VM and then log in with ssh.</p>
+      <p><strong>Interaction:</strong> The steps are in an HTML accordion so they can be opened and closed. As well, the learners are expected to follow along, completing the steps using their own computer and VM as they progress through the activity.</p>
+      <h3>Write a File</h3>
+      <p><strong>File:</strong> This page has not yet been developed.</p>
+      <p><strong>Description:</strong> The change-directory, remove, move, echo and Vim commands will be covered. The command line terminal will be introduced, then commands will be introduced using a demonstration paired with a you-try activity.</p>
+      <p><strong>Ideas:</strong> These will be evaluated in the browser. The Vim demonstration will be especially interactive. Typing vim should cause a canvas element to show a vim-like screen. Instructions will appear at the top of the section after the user begins. For example, press the “i” key, enter insert mode and enable typing. Good! Now type the following “hello &lt;your name&gt;.” Next, press the “esc” key. Good! Now press these characters in order “:w”, etc. Commands will come with brief explanations. Finally, the user will be told to try writing a file in their VM. At the bottom of the page the user will be reminded to shut down their VM so as not to waste compute.</p>
+      <p><strong>Media:</strong> TBD</p>
+      <p><strong>Interaction:</strong> jQuery will be used to let users explore the flags of a command if that command has flags. Also, there will be at least one simulation that requires a user to perform a sequence of Linux commands. There may also be a separate Vim simulation.</p>
+    </section>
+    <section class="prose" aria-labelledby="references">
+      <h2 id="references">References</h2>
+      <p>Chen, L., Liu, Y., Gallagher, M., Pailthorpe, B., Sadiq, S., Shen, H. T., &amp; Li, X. (2012). Introducing cloud computing topics in curricula. <em>Journal of Information Systems Education, 23</em>(3), 315–324. <a href="https://jise.org/Volume23/n3/JISEv23n3p315.html">https://jise.org/Volume23/n3/JISEv23n3p315.html</a></p>
+    </section>
   </main>
 
   <footer><p>All Rights Reserved © 2026 Noah S. Kevy</p></footer>
