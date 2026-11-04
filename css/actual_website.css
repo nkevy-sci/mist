@@ -1,0 +1,22 @@
+.website-thumbnail {
+  display: block;
+  transition: transform 180ms ease;
+}
+.website-thumbnail img {
+  border: 1px solid var(--muted);
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .website-thumbnail:hover {
+    transform: scale(1.02);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .website-thumbnail:focus-visible {
+    transform: scale(1.02);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .website-thumbnail {
+    transition: none;
+  }
+}
