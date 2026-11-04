@@ -52,6 +52,11 @@
             <li><a data-site-path="pages/526/storyboard.html">Storyboard</a></li>
             <li><a data-site-path="pages/526/e_learning_products.html">E-Learning Products</a></li>
           </ul></details>
+          <details><summary>IST699</summary><ul class="project-list">
+            <li><a data-site-path="pages/699/capstone_proposal.html">Capstone Proposal</a></li>
+            <li><a data-site-path="pages/699/capstone_project.html">Capstone Project</a></li>
+            <li><a data-site-path="pages/699/capstone_report.html">Capstone Report</a></li>
+          </ul></details>
 
         </nav>
       </dialog>`);
