@@ -1,0 +1,20 @@
+.usability-report section { scroll-margin-top: 2rem; }
+.usability-report .report-contents { max-width: 68ch; padding-bottom: 2rem; border-bottom: 1px solid #d4d4d4; }
+.report-contents ul { padding-left: 1.25rem; }
+.report-contents li { break-inside: avoid; margin-bottom: 0.5rem; }
+.usability-report figure { margin: 2rem 0; }
+.usability-report figure img { max-height: 42rem; width: auto; object-fit: contain; }
+.usability-report li + li { margin-top: 0.4rem; }
+.usability-report table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; line-height: 1.6; }
+.usability-report caption { text-align: left; margin-bottom: 1rem; font-weight: 600; }
+.usability-report th, .usability-report td { padding: 0.8rem; border: 1px solid #d4d4d4; text-align: left; vertical-align: top; }
+.usability-report th { font-weight: 550; background: #edf1f7; }
+.usability-report table p { margin: 0; }
+.usability-report table p + p { margin-top: 0.5rem; }
+.usability-report .wide-content { margin: 2rem 0; }
+.usability-report .empathy-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.empathy-map section { border: 1px solid #d4d4d4; padding: 1rem; min-height: 8rem; }
+.empathy-map h4 { margin: 0; }
+@media (max-width: 600px) {
+  .usability-report th, .usability-report td { padding: 0.5rem; }
+}
