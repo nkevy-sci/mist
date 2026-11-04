@@ -63,6 +63,9 @@
           <details><summary>IST626</summary><ul class="project-list">
             <li><a data-site-path="pages/626/german_101.html">German 101</a></li>
           </ul></details>
+          <details><summary>IST531</summary><ul class="project-list">
+            <li><a data-site-path="pages/531/cmap_video.html">CMap Video</a></li>
+          </ul></details>
 
         </nav>
       </dialog>`);
