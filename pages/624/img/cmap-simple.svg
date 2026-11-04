@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2550 636" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Layer1" transform="matrix(0.836818,0,0,0.836818,205.546,-175.304)">
+        <g>
+            <g transform="matrix(1,0,0,1,23.9812,147.45)">
+                <path d="M573.043,319.175L573.043,73.425L1042.13,73.425" style="fill:none;stroke:#000;stroke-width:19.92px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,10.6462,171.725)">
+                <g transform="matrix(1.195,-0,-0,1.195,-256.275,37.7641)">
+                    <path d="M1440.69,265.176L1465.69,215.176L1490.69,265.176C1478.19,252.676 1453.19,252.676 1440.69,265.176Z"/>
+                    <path d="M780.979,338.565L1465.69,338.565L1465.69,255.176" style="fill:none;stroke:#000;stroke-width:16.67px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,10.6462,171.725)">
+                <g transform="matrix(1.195,-0,-0,1.195,-256.275,37.7641)">
+                    <path d="M1061.53,265.176L1086.53,215.176L1111.53,265.176C1099.03,252.676 1074.03,252.676 1061.53,265.176Z"/>
+                    <path d="M1086.53,338.565L1086.53,255.176" style="fill:none;stroke:#000;stroke-width:16.67px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,10.6462,171.725)">
+                <g transform="matrix(1.195,-0,-0,1.195,-256.275,37.7641)">
+                    <path d="M1877.65,82.917L1852.65,132.917L1827.65,82.917C1840.15,95.417 1865.15,95.417 1877.65,82.917Z"/>
+                    <path d="M1086.53,50.658L1086.53,9.528L1852.65,9.528L1852.65,92.917" style="fill:none;stroke:#000;stroke-width:16.67px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,10.6462,171.725)">
+                <path d="M1495.23,98.3L1495.23,49.15" style="fill:none;stroke:#000;stroke-width:19.92px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1.62195,10.6462,-97.1)">
+                <g transform="matrix(1.195,-0,-0,0.73677,-256.275,189.025)">
+                    <path d="M1413.47,560.342L1463.47,585.342L1413.47,610.342C1425.97,597.842 1425.97,572.842 1413.47,560.342Z"/>
+                    <path d="M707.366,277.121L707.366,585.342L1423.47,585.342" style="fill:none;stroke:#000;stroke-width:16.67px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,10.6462,171.725)">
+                <path d="M1857.71,294.9L1767.09,294.9" style="fill:none;stroke:#000;stroke-width:19.92px;"/>
+            </g>
+            <g transform="matrix(1,0,0,0.85425,-46.6362,408.605)">
+                <g transform="matrix(1.07692,0,0,0.469298,-241.628,-100.688)">
+                    <path d="M906.2,388.726L906.2,918.853C906.2,935.108 901.287,948.305 895.236,948.305L328.134,948.305C322.083,948.305 317.17,935.108 317.17,918.853L317.17,388.726C317.17,372.471 322.083,359.275 328.134,359.275L895.236,359.275C901.287,359.275 906.2,372.471 906.2,388.726Z" style="fill:#cde8f1;stroke:#000;stroke-width:18.38px;"/>
+                </g>
+                <g transform="matrix(1.195,0,0,1.39889,-170.788,-344.614)">
+                    <g transform="matrix(50,0,0,50,687.923,411.636)">
+                    </g>
+                    <text x="296.004px" y="411.636px" style="font-family:'Helvetica';font-size:50px;">Concept Mapping</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,0.799025,1768.42,289.781)">
+                <g transform="matrix(1.07692,0,0,0.417721,-241.628,-51.7764)">
+                    <path d="M906.2,388.726L906.2,918.853C906.2,935.108 902.11,948.305 897.072,948.305L326.298,948.305C321.26,948.305 317.17,935.108 317.17,918.853L317.17,388.726C317.17,372.471 321.26,359.275 326.298,359.275L897.072,359.275C902.11,359.275 906.2,372.471 906.2,388.726Z" style="fill:#dcddff;stroke:#000;stroke-width:18.74px;"/>
+                </g>
+                <g transform="matrix(1.195,0,0,1.49558,-170.788,-342.746)">
+                    <g transform="matrix(50,0,0,50,647.615,395.091)">
+                    </g>
+                    <text x="336.312px" y="395.091px" style="font-family:'Helvetica';font-size:50px;">Metacognition</text>
+                </g>
+            </g>
+            <g transform="matrix(1.42857,0,0,0.799025,1363.1,682.981)">
+                <g transform="matrix(1.07692,0,0,0.417721,-241.628,-51.7764)">
+                    <path d="M906.2,388.726L906.2,918.853C906.2,935.108 903.337,948.305 899.811,948.305L323.559,948.305C320.033,948.305 317.17,935.108 317.17,918.853L317.17,388.726C317.17,372.471 320.033,359.275 323.559,359.275L899.811,359.275C903.337,359.275 906.2,372.471 906.2,388.726Z" style="fill:#dceeee;stroke:#000;stroke-width:13.42px;"/>
+                </g>
+                <g transform="matrix(0.836502,0,0,1.49558,-89.5695,-342.746)">
+                    <g transform="matrix(50,0,0,50,830.847,395.091)">
+                    </g>
+                    <text x="380.578px" y="395.091px" style="font-family:'Helvetica';font-size:50px;">Successful Learning</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,726.286,171.725)">
+                <g transform="matrix(0.692308,0,0,0.333769,-119.639,-21.6147)">
+                    <path d="M906.2,388.726L906.2,918.853C906.2,935.108 899.838,948.305 892.001,948.305L331.369,948.305C323.532,948.305 317.17,935.108 317.17,918.853L317.17,388.726C317.17,372.471 323.532,359.275 331.369,359.275L892.001,359.275C899.838,359.275 906.2,372.471 906.2,388.726Z" style="fill:#dceeff;stroke:#000;stroke-width:27.49px;"/>
+                </g>
+                <g transform="matrix(1.195,0,0,1.195,-170.788,-254.106)">
+                    <g transform="matrix(50,0,0,50,461.101,395.091)">
+                    </g>
+                    <text x="333.245px" y="395.091px" style="font-family:'Helvetica';font-size:50px;">Study</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,1188.71,171.725)">
+                <g transform="matrix(0.692308,0,0,0.333769,-119.639,-21.6147)">
+                    <path d="M906.2,388.726L906.2,918.853C906.2,935.108 899.838,948.305 892.001,948.305L331.369,948.305C323.532,948.305 317.17,935.108 317.17,918.853L317.17,388.726C317.17,372.471 323.532,359.275 331.369,359.275L892.001,359.275C899.838,359.275 906.2,372.471 906.2,388.726Z" style="fill:#efe6ff;stroke:#000;stroke-width:27.49px;"/>
+                </g>
+                <g transform="matrix(1.195,0,0,1.195,-170.788,-254.106)">
+                    <g transform="matrix(50,0,0,50,493.047,395.091)">
+                    </g>
+                    <text x="301.299px" y="395.091px" style="font-family:'Helvetica';font-size:50px;">Revision</text>
+                </g>
+            </g>
+            <g transform="matrix(1.195,0,0,1.195,567.498,261.669)">
+                <g transform="matrix(50,0,0,50,531.463,353.962)">
+                </g>
+                <text x="300.799px" y="353.962px" style="font-family:'Helvetica';font-size:50px;">is used for</text>
+            </g>
+            <g transform="matrix(1.195,0,0,1.195,386.606,458.269)">
+                <g transform="matrix(50,0,0,50,523.114,353.962)">
+                </g>
+                <text x="309.149px" y="353.962px" style="font-family:'Helvetica';font-size:50px;">Promotes</text>
+            </g>
+            <g transform="matrix(1.195,0,0,1.195,1692.11,-131.531)">
+                <g transform="matrix(50,0,0,50,600.887,353.962)">
+                </g>
+                <text x="289.608px" y="353.962px" style="font-family:'Helvetica';font-size:50px;">Contributes to</text>
+            </g>
+            <g transform="matrix(1.195,0,0,1.195,1511.01,256.669)">
+                <g transform="matrix(50,0,0,50,465.326,353.962)">
+                </g>
+                <text x="273.505px" y="353.962px" style="font-family:'Helvetica';font-size:50px;">Leads to</text>
+            </g>
+            <g transform="matrix(1,0,0,1,10.6462,171.725)">
+                <g transform="matrix(1.195,-0,-0,1.195,-256.275,37.7641)">
+                    <path d="M1718.19,411.703L1693.19,461.703L1668.19,411.703C1680.69,424.203 1705.69,424.203 1718.19,411.703Z"/>
+                    <path d="M1693.19,15.386L1693.19,421.703" style="fill:none;stroke:#000;stroke-width:16.67px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -55,6 +55,9 @@
           <details><summary>IST622</summary><ul class="project-list">
             <li><a data-site-path="pages/622/usability_testing.html">Usability Testing</a></li>
           </ul></details>
+          <details><summary>IST624</summary><ul class="project-list">
+            <li><a data-site-path="pages/624/in_progress_research.html">In-Progress Research</a></li>
+          </ul></details>
           <details><summary>IST699</summary><ul class="project-list">
             <li><a data-site-path="pages/699/capstone_proposal.html">Capstone Proposal</a></li>
             <li><a data-site-path="pages/699/capstone_project.html">Capstone Project</a></li>
@@ -67,6 +70,10 @@
             <li><a data-site-path="pages/531/cmap_video.html">CMap Video</a></li>
           </ul></details>
 
+          <details><summary>IST541</summary><ul class="project-list">
+            <li><a data-site-path="pages/541/website_plan.html">Website Plan</a></li>
+            <li><a data-site-path="pages/541/actual_website.html">Actual Website</a></li>
+          </ul></details>
         </nav>
       </dialog>`);
 

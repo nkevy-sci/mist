@@ -1,0 +1,6 @@
+.research-report section + section { margin-top: 3rem; }
+.research-report h4 { margin: 2rem 0 1rem; font-size: 1.1rem; line-height: 1.4; }
+.research-report figure { margin: 2rem 0; }
+.research-report figure img { width: 100%; }
+.research-references { padding-left: 2rem; }
+.research-references li + li { margin-top: 1rem; }
