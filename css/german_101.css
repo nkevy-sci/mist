@@ -1,0 +1,20 @@
+.german-report .report-contents ul { padding-left: 1.25rem; }
+.german-report .report-contents li { break-inside: avoid; margin-bottom: 0.35rem; }
+.german-report section[id], .german-report h2[id] { scroll-margin-top: 2rem; }
+.german-report li + li { margin-top: 0.4rem; }
+.german-report .themes-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.german-report caption { text-align: left; margin-bottom: 0.75rem; }
+.german-report th, .german-report td { text-align: left; padding: 0.6rem 0.8rem; border: 1px solid #d4d4d4; }
+.german-report th { background: #e8effb; }
+.german-report .reference { padding-left: 2rem; text-indent: -2rem; }
+.german-report .session-record { display: grid; gap: 1rem; }
+.german-report dt { font-weight: 600; }
+.german-report dd { margin: 0; }
+.german-report .record-space { display: block; min-height: 3rem; border-bottom: 1px solid #d4d4d4; }
+.german-report .empathy-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.german-report .empathy-map section { border: 1px solid #d4d4d4; padding: 1rem; }
+.german-report .empathy-map h4 { margin: 0; }
+.german-report .empathy-map p { margin-bottom: 0; min-height: 5rem; }
+@media (max-width: 480px) {
+  .german-report .empathy-map { grid-template-columns: 1fr; }
+}

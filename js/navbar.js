@@ -60,6 +60,9 @@
             <li><a data-site-path="pages/699/capstone_project.html">Capstone Project</a></li>
             <li><a data-site-path="pages/699/capstone_report.html">Capstone Report</a></li>
           </ul></details>
+          <details><summary>IST626</summary><ul class="project-list">
+            <li><a data-site-path="pages/626/german_101.html">German 101</a></li>
+          </ul></details>
 
         </nav>
       </dialog>`);
