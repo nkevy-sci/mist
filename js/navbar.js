@@ -31,7 +31,7 @@
         </div>
         <nav aria-labelledby="navigation-title">
           <a class="navigation-home" data-site-path="index.html">Home</a>
-          <p class="navigation-subtitle">MIST Courses</p>
+          <p class="navigation-subtitle"><a data-site-path="pages/mist_courses.html">MIST Courses</a></p>
           <details><summary>IST522</summary><ul class="project-list">
             <li><a data-site-path="pages/522/idd_frontpage.html">ID Document</a></li>
           </ul></details>

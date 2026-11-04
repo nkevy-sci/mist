@@ -40,7 +40,8 @@
 .drawer-heading p { margin: 0; font-size: 1.25rem; font-weight: 650; }
 .navigation-home { display: block; padding: 1rem 0.4rem; font-weight: 600; }
 .navigation-home:hover { background: #e8e8e8; }
-.navigation-drawer details { border-top: 1px solid #777; border-bottom: 1px solid #777; }
+.navigation-drawer details { border-bottom: 1px solid #777; }
+.navigation-drawer details:first-of-type { border-top: 1px solid #777; }
 .navigation-drawer summary { padding: 1rem 0.4rem; cursor: pointer; font-weight: 600; }
 .navigation-drawer summary:hover { background: #e8e8e8; }
 .navigation-subtitle { margin-left: 7.1px; }
