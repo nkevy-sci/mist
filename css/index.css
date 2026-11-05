@@ -155,5 +155,7 @@ footer p { margin: 0; text-align: right; color: var(--muted); font-size: 0.8125r
   .hero-title { font-size: clamp(2rem, 7vw, 3.5rem); }
   .hero-title span { font-size: 0.58em; }
   .introduction { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  .linkedin h2 { text-align: center; }
+  .linkedin-profile { margin-inline: auto; }
   .portrait { width: min(100%, 28rem); justify-self: center; }
 }
