@@ -1,0 +1,8 @@
+.project-video { max-width: 60rem; }
+.project-video iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
