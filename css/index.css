@@ -99,6 +99,36 @@ h2 {
   line-height: 1.25;
 }
 .c-left p { margin: 0 0 1.25rem; max-width: 65ch; }
+.linkedin { margin-top: 2rem; }
+.linkedin h2 { margin: 0 0 0.875rem; }
+.linkedin-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 18rem;
+  min-height: 7rem;
+  padding: 1.25rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 0;
+  background: #fff;
+  color: var(--muted);
+  text-decoration: none;
+}
+.linkedin-profile img {
+  display: block;
+  flex: 0 0 auto;
+  width: clamp(1.6rem, 6vw, 3rem);
+  height: auto;
+}
+.linkedin-profile span {
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+.linkedin-profile:hover { box-shadow: 0 4px 12px #00000016; }
 .portrait { margin: 0; }
 .portrait img {
   display: block;
@@ -108,6 +138,14 @@ h2 {
   box-shadow: 0 5px 20px #00000016;
 }
 figcaption { margin-top: 1rem; color: var(--muted); font-size: 0.875rem; line-height: 1.6; }
+.portfolio-video { max-width: 56rem; margin: 0 auto 3rem; }
+.portfolio-video iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
 footer { width: var(--content-width); margin: 0 auto; padding: 1.5rem 0 2rem; border-top: 1px solid #d4d4d4; }
 footer p { margin: 0; text-align: right; color: var(--muted); font-size: 0.8125rem; }
 
